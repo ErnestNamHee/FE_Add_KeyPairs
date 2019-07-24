@@ -6,8 +6,12 @@
 
 
 ## 2. Create New SSH Keys
-### 2.1 Use the following command : 
+chmod 755 create_new_key_pair.sh
+./create_new_key_pair.sh
 
 ## 3. Add the New SSH Keys to authorize access
+nano ~/.ssh/authorized_keys
+Add the entry starting with ssh-rsa from file with extension .pub (Public Keys)
+
 ## 4. (Option) Import the New SSH Keys to Flexible Engine Console
 ## 4. Connect using the New SSH Keys using PUTTY
