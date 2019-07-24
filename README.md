@@ -6,8 +6,8 @@
 
 
 ## 2. Create New SSH Keys
-chmod 755 create_new_key_pair.sh
-./create_new_key_pair.sh
+#### chmod 755 create_new_key_pair.sh
+#### ./create_new_key_pair.sh
 
 ## 3. Add the New SSH Keys to authorize access
 nano ~/.ssh/authorized_keys
